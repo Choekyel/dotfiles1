@@ -42,5 +42,5 @@ Install Package control
 Install then <Predawn, Material Theme, BracketHighlighter, Anaconda, SideBarEnhancements>
 
 ########################################################################################################
-Automation will save you a lot of time, but there may occur some problems so be aware.
+# Automation will save you a lot of time, but there may occur some problems so be aware.
 ########################################################################################################
