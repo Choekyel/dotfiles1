@@ -9,4 +9,4 @@ brew install sublime-text --cask
 
 # Install Source Code Pro Font
 brew tap homebrew/cask-fonts
-brew cask install font-source-code-pro
+brew install font-source-code-pro --cask
