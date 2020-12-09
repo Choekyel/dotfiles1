@@ -16,6 +16,8 @@ $ git clone "URL form Github" # in the home directory
 $ pwd # example: /Users/choekyel/
 
 # Pass the home directory to the installation script
+$ cd dotfiles/
+
 $ ./install.sh ~ # replace <~> with the copied home directory
 
 # Reload the Terminal and change the font if you want
