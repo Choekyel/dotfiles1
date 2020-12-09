@@ -3,6 +3,17 @@
 Link for [Homebrew](https://brew.sh/index_de) for macOS or Linux
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # cmd may be updated
+# If failed during: git init -q
+Fixed this just by force deleting Homebrew directory:
+
+sudo rm -rf /usr/local/Homebrew/
+
+And then launch installation again.
+
+The reason was that git is not installed on the system.
+
+# Error: Can't create update lock in /usr/local/var/homebrew/locks!
+sudo chown -R $(whoami) /usr/local/var/homebrew
 
 # Try run git on the Terminal
 Install git if its not already installed
