@@ -1,13 +1,13 @@
-# You have to be the administrator
+## You have to be the administrator
 # Install Homebrew
-https://brew.sh/index_de # Link for Homebrew for macOS or Linux
+Link for [Homebrew](https://brew.sh/index_de) for macOS or Linux
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)" # cmd may be updated
 
 # Try run git on the Terminal
 Install git if its not already installed
 
-https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/ # Link for installing Git on any OS
+Link for installing [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) on any OS
 
 # Clone from the repository
 $ git clone "URL form Github" # in the home directory
