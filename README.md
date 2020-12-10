@@ -21,7 +21,15 @@ Install git if its not already installed
 Link for installing [Git](https://www.linode.com/docs/guides/how-to-install-git-on-linux-mac-and-windows/) on any OS
 
 # Clone from the repository
-$ git clone "URL form Github" # in the home directory
+$ git clone https://github.com/Choekyel/dotfiles.git && cd dotfiles && source bootstrap.sh # in the home directory
+
+To update, cd into your local dotfiles repository and then:
+
+source bootstrap.sh
+
+Alternatively, to update while avoiding the confirmation prompt:
+
+set -- -f; source bootstrap.sh
 
 # Copy the home directory
 $ pwd # example: /Users/choekyel/
