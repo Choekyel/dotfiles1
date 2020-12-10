@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Simplified dotfile for video recordings
 
 # set 256 color profile where possible
