@@ -25,11 +25,11 @@ $ git clone https://github.com/Choekyel/dotfiles.git && cd dotfiles && source bo
 
 To update, cd into your local dotfiles repository and then:
 
-source bootstrap.sh
+$ source bootstrap.sh
 
 Alternatively, to update while avoiding the confirmation prompt:
 
-set -- -f; source bootstrap.sh
+$ set -- -f; source bootstrap.sh
 
 # Copy the home directory
 $ pwd # example: /Users/choekyel/
