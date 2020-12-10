@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Detect which `ls` flavor is in use
 if ls --color > /dev/null 2>&1; then # GNU `ls`
 	colorflag="--color"
@@ -27,4 +29,9 @@ alias sudo='sudo '
 # Get OS X Software Updates, and update installed Ruby gems, Homebrew, npm, and their installed packages
 alias update_system='sudo softwareupdate -i -a'
 
-alias clean='rm -rf ~/.Trash/*; rm -rf ~/Downloads/*'
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
+
+# Autocorrect typos in path names when using `cd`
+shopt -s cdspell
