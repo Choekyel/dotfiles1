@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 # Shell prompt based on the Solarized Dark theme.
 # Text → use 13pt Monaco with 1.1 vertical spacing.
 
